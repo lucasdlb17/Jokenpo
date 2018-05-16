@@ -1,0 +1,62 @@
+body {
+	color: white;
+	font-family: arial;
+}
+.console {
+	width: 800px;
+	height: 600px;
+	margin: 30px auto 0 auto;
+	border: 1px solid black;
+	background-color: rgb(81, 43, 248);
+	border-radius: 10px;
+	box-shadow: 1px 1px 50px 5px black;
+	padding: 50px;
+	box-sizing: border-box;
+	
+}
+.game {
+	text-align: center;
+}
+.escolha-mao {
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	margin-top: -30px;
+}
+.Jchooses {
+	border: 1px solid black;
+	padding: 25px 50px;
+	border-radius: 10px;
+	background-color: #359dd5;
+	color: white;
+	font-weight: bold;
+}
+.Cchooses {
+	border: 1px solid black;
+	padding: 25px 50px;
+	border-radius: 10px;
+	background-color: #d53535;
+	font-weight: bold;
+}
+.info-game {
+	margin-top: 50px;
+}
+.placar {
+	background-color: white;
+	padding: 5px 10px;
+	color: black;
+	border: 1px solid black;
+}
+.resultado {
+	position: absolute;
+	margin-left: 500px;
+}
+.escolha-do-jogador {
+	margin-top: -20px;
+}
+.posicao-escolha-computador {
+	margin: 60px;
+}
+.posicao-escolha-jogador {
+	margin-top: 150px;
+}
