@@ -2,12 +2,15 @@ body {
 	color: white;
 	font-family: arial;
 }
+.banner {
+	position: absolute;
+	top: 0;
+}
 .console {
 	width: 800px;
-	height: 600px;
+	height: 700px;
 	margin: 30px auto 0 auto;
-	border: 1px solid black;
-	background-color: rgb(81, 43, 248);
+	background-color: #4b3227;
 	border-radius: 10px;
 	box-shadow: 1px 1px 50px 5px black;
 	padding: 50px;
@@ -16,6 +19,15 @@ body {
 }
 .game {
 	text-align: center;
+	margin-top: 45px;
+}
+h1 {
+	font-size: 60px;
+	font-family: fantasy;
+	letter-spacing: 3px;
+	margin-top: -40px;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: #000;
 }
 .escolha-mao {
 	position: absolute;
@@ -24,35 +36,52 @@ body {
 	margin-top: -30px;
 }
 .Jchooses {
-	border: 1px solid black;
+	border: 5px outset white;
 	padding: 25px 50px;
 	border-radius: 10px;
 	background-color: #359dd5;
 	color: white;
 	font-weight: bold;
+	font-family: Arial;
+	font-size: 16px;
 }
 .Cchooses {
-	border: 1px solid black;
+	border: 5px outset white;
 	padding: 25px 50px;
 	border-radius: 10px;
 	background-color: #d53535;
 	font-weight: bold;
+	font-family: Arial;
 }
-.info-game {
-	margin-top: 50px;
+.Options {
+	border: 5px outset white;
+	padding: 25px 50px;
+	border-radius: 10px;
+	font-weight: bold;
+	margin: 10px;
+	font-family: Arial;
+	font-size: 16px;
 }
+
 .placar {
 	background-color: white;
 	padding: 5px 10px;
 	color: black;
 	border: 1px solid black;
 }
+.placar-text{
+	font-size: 25px;
+	font-weight: 800;
+	margin-top: 0;
+
+}
 .resultado {
 	position: absolute;
-	margin-left: 500px;
+	margin-left: 550px;
+	margin-top: 70px;
 }
 .escolha-do-jogador {
-	margin-top: -20px;
+	margin-top: -80px;
 }
 .posicao-escolha-computador {
 	margin: 60px;

@@ -62,3 +62,60 @@ function Jogo(escolhaDoJogador) {
 	document.getElementById("placar-computador").innerHTML = pontosDoComputador;
 	document.getElementById("resultado").innerHTML = vencedor;
 }
+
+function MelhorDeTres() {
+	if (pontosDoJogador === 2) {
+		setTimeout(function(){
+		alert("Você Venceu!!!");
+		location.reload();
+		}, 100);
+	}
+	else if (pontosDoComputador == 2) {
+		setTimeout(function(){
+		alert("Você Perdeu");
+		location.reload();
+		}, 100);
+	}
+}
+function MelhorDeCinco() {
+	if (pontosDoJogador === 3) {
+		setTimeout(function(){
+		alert("Você Venceu!!!");
+		location.reload();
+		}, 100);
+	}
+	else if (pontosDoComputador == 3) {
+		setTimeout(function(){
+		alert("Você Perdeu");
+		location.reload();
+		}, 100);
+	}
+}
+function MelhorDeSete() {
+	if (pontosDoJogador === 4) {
+		setTimeout(function(){
+		alert("Você Venceu!!!");
+		location.reload();
+		}, 100);
+	}
+	else if (pontosDoComputador == 4) {
+		setTimeout(function(){
+		alert("Você Perdeu");
+		location.reload();
+		}, 100);
+	}
+}
+function MelhorDeNove() {
+	if (pontosDoJogador === 5) {
+		setTimeout(function(){
+		alert("Você Venceu!!!");
+		location.reload();
+		}, 100);
+	}
+	else if (pontosDoComputador == 5) {
+		setTimeout(function(){
+		alert("Você Perdeu");
+		location.reload();
+		}, 100);
+	}
+}

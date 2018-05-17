@@ -1,36 +1,24 @@
+<!DOCTYPE html>
 <html>
-<head>
-<title>Jo Ken Po</title>
-<meta charset='utf-8'>
-<link rel='stylesheet' type='text/css' href='estilo.css'>
-</head>
-<script src="script.js"></script>
-<body>
-<div class="console">
-	<div class="game">
-	<div>
-		<span class="Cchooses">Pedra</span>
-		<span class="Cchooses">Papel</span>
-		<span class="Cchooses">Tesoura</span>
-		<p class="posicao-escolha-computador">Computador jogou: <span id="escolha-do-computador">-</span></p>
-	</div>
-	<div class="info-game">
-	<div class="resultado">
-		<p>Resultado: <span id="resultado">0</span></p>
-	</div><br>
-	<div>
-		<p>Placar do Jogador: <span id="placar-jogador" class="placar">0<span></p>
-		vs
-		<p>Placar do Computador: <span id="placar-computador" class="placar">0</span></p>
-	</div>
-	</div>
-	<div class="posicao-escolha-jogador">
-		<p class="escolha-do-jogador">Jogador jogou: <span id="escolha-do-jogador">-</span></p><br>
-		<button value="Pedra" class="Jchooses" onclick="Jogo('<img src=pedra_jogador.png class=escolha-mao>')">PEDRA</button>
-		<button value="Papel" class="Jchooses" onclick="Jogo('<img src=papel_jogador.png class=escolha-mao>')">PAPEL</button>
-		<button value="Tesoura" class="Jchooses" onclick="Jogo('<img src=tesoura_jogador.png class=escolha-mao>')">TESOURA</button>
-	</div>
-	</div>
-</div>
-</body>
+	<head>
+		<title>Jo Ken Po - Menu</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+	</head>
+	<body>
+		<div class="banner">
+			<img src="banner-jogo.png">
+		</div>
+		<div class="console">
+			<div class="game">
+				<h1>Escolha a Modalidade</h1>
+				<a  href="page-1.html"><button class="Options">Melhor de Três</button></a><br>
+				<a  href="page-2.html"><button class="Options">Melhor de Cinco</button></a><br>
+				<a  href="page-3.html"><button class="Options">Melhor de Sete</button></a><br>
+				<a  href="page-4.html"><button class="Options">Melhor de Nove</button></a><br>
+				<a  href="page-5.html"><button class="Options">Jogar Idefinidamente</button></a>
+			</div>
+		</div>
+
+	</body>
 </html>

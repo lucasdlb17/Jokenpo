@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<title>Jo Ken Po</title>
+		<meta charset='utf-8'>
+		<link rel='stylesheet' type='text/css' href='estilo.css'>
+	</head>
+	<script src="script.js"></script>
+	<body>
+		<div class="banner">
+			<a href="index.html"><img src="banner-jogo.png"></a>
+		</div>
+		<div class="console">
+			<div class="game">
+				<div>
+					<span class="Cchooses">PEDRA</span>
+					<span class="Cchooses">PAPEL</span>
+					<span class="Cchooses">TESOURA</span>
+					<p class="posicao-escolha-computador">Computador jogou: <span id="escolha-do-computador">-</span></p>
+				</div>
+				<div class="info-game">
+					<div class="resultado">
+						<p>Vencedor: <span id="resultado">0</span></p>
+					</div><br>
+					<div>
+						<p class="placar-text">Placar do Computador: <span id="placar-computador" class="placar">0</span></p>
+						<p class="placar-text">VS</p>
+						<p class="placar-text">Placar do Jogador: <span id="placar-jogador" class="placar">0<span></p>
+					</div>
+				</div>
+				<div class="posicao-escolha-jogador">
+					<p class="escolha-do-jogador">Jogador jogou: <span id="escolha-do-jogador">-</span></p><br>
+					<button value="Pedra" class="Jchooses" onclick="Jogo('<img src=pedra_jogador.png class=escolha-mao>'), MelhorDeCinco()">PEDRA</button>
+					<button value="Papel" class="Jchooses" onclick="Jogo('<img src=papel_jogador.png class=escolha-mao>'), MelhorDeCinco()">PAPEL</button>
+					<button value="Tesoura" class="Jchooses" onclick="Jogo('<img src=tesoura_jogador.png class=escolha-mao>'), MelhorDeCinco()">TESOURA</button>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
