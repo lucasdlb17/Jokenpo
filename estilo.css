@@ -15,7 +15,26 @@ body {
 	box-shadow: 1px 1px 50px 5px black;
 	padding: 50px;
 	box-sizing: border-box;
-	
+}
+.regras {
+	position: absolute;
+	right: 0;
+	margin: 20px;
+	width: 350px;
+	height: 300px;
+	background-color: #4b3227;
+	box-shadow: 1px 1px 50px 5px black;
+	box-sizing: border-box;
+	border-radius: 10px;
+	text-align: center;
+}
+h2 {
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: #000;
+}
+.regra {
+	width: 60px;
+	height: 60px;
 }
 .game {
 	text-align: center;
